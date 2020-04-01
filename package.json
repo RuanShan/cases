@@ -9,7 +9,7 @@
     "clean": "rm -rf public/js/libs && rm -rf public/js/mods"
   },
   "hexo": {
-    "version": "3.2.2"
+    "version": "3.9.0"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
@@ -23,7 +23,6 @@
     "hexo-generator-feed": "mamboer/hexo-generator-feed",
     "hexo-generator-fragments": "github:mamboer/hexo-generator-fragments",
     "hexo-generator-index": "^0.2.0",
-    "hexo-generator-lunr": "^1.0.5",
     "hexo-generator-sitemap": "^1.1.2",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "*",
@@ -32,8 +31,7 @@
     "hexo-server": "^0.2.0",
     "hexo-util": "^0.6.0",
     "hexo-wordcount": "2.0.1",
-    "lodash": "^4.17.4",
-    "lunr": "github:codepiano/lunr.js.git"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "eslint": "^3.17.1",

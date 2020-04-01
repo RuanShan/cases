@@ -24,13 +24,13 @@
  *       this.field('title', 10)
  *       this.field('tags', 100)
  *       this.field('body')
- *       
+ *
  *       this.ref('cid')
- *       
+ *
  *       this.pipeline.add(function () {
  *         // some custom pipeline function
  *       })
- *       
+ *
  *     })
  *
  * @param {Function} config A function that will be called with the new instance
@@ -196,7 +196,7 @@ lunr.EventEmitter.prototype.hasHandler = function (name) {
  * @returns {Array}
  */
 if(typeof module !== 'undefined' && module.exports){
-  nodejieba_segment = require("nodejieba")
+  //nodejieba_segment = require("nodejieba")
 }
 lunr.tokenizer = function (obj) {
   if (!arguments.length || obj == null || obj == undefined) return []
