@@ -122,9 +122,9 @@ deploy:
 disqus_shortname:
 
 # Analytics
-baidu_analytics: e850b980d029480b092fdd7503c3f8de
+baidu_analytics: 5db280c9147e7d5d7669eb5db84193c1
 google_analytics:
-cnzz_analytics: 1258539944
+cnzz_analytics: 
 
 # Social
 twitter: o2circle

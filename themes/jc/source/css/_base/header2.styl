@@ -1,9 +1,10 @@
-.header{ position:relative; height:130px;width:1070px; margin:auto;clear:both;}
-.logo{    position: absolute; top:0px; left:0; background-color:#11ca5b; width:118px; height:75px; z-index:100}
+.header{ position:relative; padding:30px 0;width:1070px; margin:auto;clear:both;}
+.logo{    position: absolute; top:30px; left:0; background-color:#11ca5b; width:118px; height:75px; z-index:100}
 .logo div{ background:url(../img/logo.svg); background-size:cover; width:98px; height:38px; margin:25px 10px 10px 10px; }
-.menu{ height:65px; width: 685px; float:right; margin-top:19px;}
+.menu{ height:65px; width: 685px; float:right; margin-top:19px;  }
 .menu li{ float:left; color:#fff; font-size:16px; font-family:'微软雅黑'; height:50px; line-height:50px; padding:0 15px 0 15px; cursor:pointer; position:relative;}
 .menu li:hover,.menu li.selected{ border-bottom:1px solid #fff;}
+.menu li a{ color:#fff; }
 .service{ background:url(../img/service.png) no-repeat; background-position:center; padding:20px; }
 .case{background:url(../img/case.png) no-repeat; background-position:center; padding:20px;}
 .h5share{background:url(../img/h5.png) no-repeat; background-position:center; padding:20px;}
@@ -15,9 +16,9 @@
 /************* 适配 **************/
 /*** pad 横屏 ***/
 @media (max-width: 1070px){
-.header { width: 100%; height:50px; background: black; position:fixed; top:0; z-index:99;}
+.header { width: 100%; height:50px; background: black; position:fixed; top:0; z-index:99; padding:0;}
 .menu{ margin-top:0;}
-.logo{ height:50px;}
+.logo{ height:50px; top:0; }
 .logo div{ margin-top:8px;transform-origin: center;transform: scale(.8);}
 .title{ margin-top:230px;}
 .page-header{ overflow:hidden;}
@@ -35,6 +36,7 @@
 /*** 手机端 ***/
 @media (max-width: 767px){
 .page-header{ width:100%; height: 370px;}
+.header{padding:0;}
 .inner{ width:100%; overflow:hidden; padding:0}
 .indication{  text-align: center; bottom:50px;}
 .links{ font-size:12px;}
