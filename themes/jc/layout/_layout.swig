@@ -5,7 +5,7 @@
     <title>{% block title %}{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}「{{ config.subtitle }}」{% endblock %}</title>
     {{partial('_partial/common/head')}}
 </head>
-<body class="{% block page_class %}{% endblock %}">
+<body class="blue {% block page_class %}{% endblock %}">
     {% block header %}
         {% include '_partial/common/header.swig' %}
     {% endblock %}
@@ -26,6 +26,6 @@
         {% include '_partial/common/after_footer.swig' %}
     {% endblock %}
 
-    
+
 </body>
 </html>
