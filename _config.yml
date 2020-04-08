@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Aotu.io
+title: 软山
 subtitle: H5频道页
-subtitle_desc: Open Oriented Development Center
+subtitle_desc: 大连软山网络有限公司
 slogan: Open Oriented, more haste, less speed.
-keywords: 凹凸实验室, Aotu, 前端开发, 全栈开发, IOS开发, Android开发
-description: 凹凸实验室精心挑选的HTML5场景应用。凹凸实验室(Aotu.io) 始建于2015年，是一个年轻基情的技术社区组织。<br/>O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原生APP开发等方面的专业知识及案例。
-author: 凹凸实验室
+keywords: 大连软山网络有限公司, ruanshan, 前端开发, 全栈开发, IOS开发, Android开发
+description: 大连软山网络有限公司精心挑选的HTML5场景应用。大连软山网络有限公司(ruanshan.com) 始建于2015年，是一个年轻基情的技术社区组织。<br/>O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原生APP开发等方面的专业知识及案例。
+author: ruanshan
 language: zh-cn
 timezone: Asia/Shanghai
 
@@ -116,7 +116,7 @@ deploy:
   type: git
   message: Super AOTUMan at {{ now('YYYY-MM-DD HH:mm:ss') }}
   repo:
-    github: git@github.com:o2team/cases.git,gh-pages
+    github: git@github.com:RuanShan/cases.git,gh-pages
 
 # Disqus
 disqus_shortname:
@@ -129,8 +129,8 @@ cnzz_analytics: 1258539944
 # Social
 twitter: o2circle
 github:
-  user: o2team
-  repo: o2team.github.io
+  user: RuanShan
+  repo: cases
 
 # baidu sitemap
 baidusitemap:

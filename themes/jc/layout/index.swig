@@ -1,9 +1,8 @@
 {% extends '_layout.swig' %}
 
-{% block page_class %}page-index{% endblock %}
+{% block page_class %}page-index blue{% endblock %}
 
 {% block main %}
-    {% include '_partial/index/banner.swig' %}
     {% include '_partial/index/main.swig' %}
 {% endblock %}
 

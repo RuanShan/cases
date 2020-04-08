@@ -12,12 +12,13 @@ menu:
   join: 加入我们
   brand: 品牌
   home: 首页
+  case: 成功案例
   source: 源码
   news: 资讯
-  html5: H5案例
+  html5: H5案例分享
 
 button:
-  learn_more: 了解详情 
+  learn_more: 了解详情
 
 index:
   get_started: 开始使用
@@ -42,7 +43,7 @@ post:
   read_more: 阅读全文
   view_more: 查看更多
   pv: 热度
-  word_count: 字数 
+  word_count: 字数
   posted: 发表于
 
 counter:
@@ -74,7 +75,7 @@ sidebar:
     id_vd: 交互与视觉
     interactive: 交互设计
     visual: 视觉设计
-    fd_rd: 全栈开发 
+    fd_rd: 全栈开发
     dev_common: 通用开发
     homebrew: Homebrew
     shell_terminal: Shell和终端
@@ -83,15 +84,15 @@ sidebar:
     markdown: Markdown手册
     misc: 其他设置
     dev_fd: 前端开发
-    sublime_text: Sublime Text 
+    sublime_text: Sublime Text
     nodejs: NodeJS
     network_analysis: 网络抓包
     dev_rd: 后台开发
     nginx: NGinx
     mongodb: MongoDB
     dev_ios: IOS开发
-    alcatraz: Alcatraz 
-    crash_logs: 崩溃日志 
+    alcatraz: Alcatraz
+    crash_logs: 崩溃日志
     dev_android: Android开发
     android_studio: Android Studio
     miscellaneous: 其他

@@ -2,10 +2,11 @@
   text-align: center
   font-size: 0
   margin: 0 -1%
-  
+
   @media (max-width: 768px) {
     & {
       margin: 0
+      padding: 0 16px
     }
   }
   &:after
@@ -13,12 +14,12 @@
     clear: both
     display: table
   +mobile() {
-    margin: 0   
+    margin: 0
   }
 /*  +desktop() {
     margin-right: -60px
   }*/
-    
+
  .mod-post
     overflow: hidden
     background: #fff
@@ -39,7 +40,7 @@
         color: #646464
     & > a
       display: block
-      
+
     &-cover
       position:relative
       display: block
@@ -81,7 +82,7 @@
         }
     &-info
       padding: 15px 10px 10px
-      
+
     &-tit
       height: 24px
       margin-bottom: 10px
@@ -95,7 +96,7 @@
       +mobile() {
          // font-size: 16px
       }
-      
+
     &-desc
       height: 40px
       line-height: 20px
@@ -107,25 +108,25 @@
       word-wrap: break-word
       transition: color 200ms
       font-size: 16px
-    
+
     &-date
       font-size: 16px
-        
+
     +mobile() {
         width: 46%
         margin: 2%;
-        
+
         // box-shadow: 0 1px 2px rgba(0,0,0,0.1);
         &-cover {
           height: auto
         }
-        
+
     }
     @media (max-width: 768px) {
       & {
-        width: auto
-        margin: 0 15px 20px
-        
+        width: 100%
+        margin: 0 0 20px
+
         &:hover {
           // box-shadow: none
         }

@@ -1,25 +1,12 @@
-<div class="mod-hd">
-    <div class="grid">
-        <div class="mod-logo">
-            <a href="{{ url_for('index.html') }}" title="{{ config.title }}">
-                {{ config.title }}
-            </a>
-        </div>
-        <span class="mod-hd-toggle" id="J_hdToggle"><i class="fa fa-bars"></i></span>
-        <div class="mod-hd-main">
-            <div class="mod-hd-inner"> 
-                <nav class="mod-nav">
-                    <ul class="mod-nav-list">
-                        {{ header_menu('main-nav') }}
-                    </ul>
-                </nav>
-                {# <div class="mod-search" id="J_search">
-                    <a class="fa fa-search mod-search-ico" id="J_searchTrigger" title="{{ __('menu.search') }}"></a>
-                    <form id="J_searchForm" method="get" class="mod-search-form" action="/search/">
-                        <input type="text" name="query" class="mod-search-ipt" id="J_searchInput" placeholder="{{ __('menu.search') }}" />
-                    </form>
-                </div> #}
-            </div> 
-        </div>
-    </div>
+<div class="page-header com-info">
+          <div class="header grid">
+               <div class="logo"><div></div><a class="full" href="index.html"></a></div>
+               <ul class="menu">
+                   <!--<li><span class="service"></span><span>提供服务</span><a class="full" href="http://ruanshan.com/index.html"></a></li>-->
+                   <li><span class="case"></span><span>成功案例</span><a class="full" href="http://ruanshan.com/cases.html"></a></li>
+                   <li  class="selected this" ><span class="h5share"></span><span>H5案例分享</span><a class="full" href="http://h5cases.ruanshan.com/" target="_blank"></a></li>
+                   <li><span class="h5ketang"></span><span>H5课堂</span><a class="full" href="http://ruanshan.com/posts.html"  ></a></li>
+                   <li ><span class="about"></span><span>关于软山</span><a class="full" href="http://ruanshan.com/about-us.html"></a></li>
+               </ul>
+          </div>
 </div>
