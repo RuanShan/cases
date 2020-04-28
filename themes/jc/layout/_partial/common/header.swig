@@ -15,7 +15,7 @@
           <span class="h5share"></span><span>H5案例分享</span></a>
       </li>
       <li>
-        <a href="http://ruanshan.com/posts.html">
+        <a href="http://ruanshan.com/ketang.html">
           <span class="h5ketang"></span><span>H5课堂</span></a>
       </li>
       <li >
